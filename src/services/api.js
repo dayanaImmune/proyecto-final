@@ -7,8 +7,8 @@ export const getDataApi = async () => {
         return {
             id: item.login.uuid,
             name: item.name.first + " " + item.name.last,
-            city: item.locarion.city,
-            country: item.locarion.country,
+            city: item.location.city,
+            country: item.location.country,
             image: item.picture.large,
             email: item.email,
             gender: item.gender,

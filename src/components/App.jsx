@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { getDataApi, getDataLS } from "../services/api"
 import { Route, Routes } from "react-router-dom"
 import Home from "./Home"
